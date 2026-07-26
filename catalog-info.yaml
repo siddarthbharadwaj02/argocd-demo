@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: argocd-demo
+  description: Demo application deployed using Argo CD
+  annotations:
+    github.com/project-slug: siddarthbharadwaj02/argocd-demo
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
